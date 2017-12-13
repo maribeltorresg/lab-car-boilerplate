@@ -20,5 +20,24 @@
 
 .phone-app {
     background-color: #f7b617;
+    color: #fff;
+    padding: 2.5em 1em 3.5em;
+}
+
+.title-iphone {
+    outline: 1px solid #fff;
     text-align: center;
+}
+
+.title-iphone .title {
+    font-size: 2.5em;
+}
+
+.container-super-fluid {
+width: 100%;
+padding: 0;
+}
+
+.desktop {
+    display: none;
 }
