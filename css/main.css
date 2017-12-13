@@ -1,1 +1,24 @@
 /* Los estilos de tu proyecto */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-image: url('../assets/images/taxi.jpg');
+    background-position: center 91%;
+    background-size: 100% auto;
+    background-repeat: no-repeat;   
+    height: 100vh;
+}
+
+.descarga-app {
+    background-color: #f7b617;
+    color: #fff;
+    height: 17.5em;
+}
+
+.phone-app {
+    background-color: #f7b617;
+    text-align: center;
+}
