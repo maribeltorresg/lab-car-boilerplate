@@ -12,10 +12,11 @@
     <title>LabCar</title>
 </head>
 <body>
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+        <button type="button" class="navbar-toggle collapsed nab-toggle-left" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span> 
@@ -42,44 +43,58 @@
   </nav>
   <!-- sección hero -->
   <section class="hero">
-    <div class="container-super-fluid">
+    <div class="info-mobile visible-xs">
+      <h2>Comienza a viajar con <img src="assets/images/logoBlanco.png" alt="logo blanco"></h2>
+      <button class="btn btn-default" type="submit">Descarga el app</button>
+    </div>
+    <div class="registry hidden-xs">
+      <h2>Disfruta del viaje <br>Eres dueño de tu tiempo</h2>
+      <p>Viaja con <img src="assets/images/logoBlanco.png" alt=""></p>
+      <button class="btn btn-default" type="submit">Regístrate</button>
+      <hr>
+      <button class="btn btn-default" type="submit">Conviértete en un conductor</button>
+    </div>
+    <!-- <div class="discharge-mobile">
+      <h2>Comienza a viajar con <img src="assets/images/logoBlanco.png" alt=""></h2>
+    </div> -->
+    <!-- <div class="container-super-fluid">
       <div class="row">
         <div class="col-xs-offset-2 col-xs-10 col-md-offset-8 col-md-4">
-          <div class="descarga-app mobile">
-            <h3>Comienza a viajar con <img src="assets/images/logoBlanco.png" alt="logo blanco"></h3>
-            <button class="btn btn-default" type="submit">Descarga el app</button>
-          </div>
-          <div class="registro-app desktop">
-            <p>Disfruta del viaje <br>Eres dueño de tu tiempo</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- sección app -->
-  <section>
-    <div class="container-super-fluid">
-      <div class="row">
-        <div class="col-xs-12 col-md-5">
-            <div class="phone-app">
-              <div class="title-iphone">
-                <p class="title">La nueva app</p>
-                <img src="assets/images/iphone6Plus.png" alt="iphone">
-              </div>
-              <p>Llega a tu destino</p>
+          <div class="flex-container">
+            <div class="descarga-app mobile">
+              <h3>Comienza a viajar con <img src="assets/images/logoBlanco.png" alt="logo blanco"></h3>
+              <button class="btn btn-default" type="submit">Descarga el app</button>
             </div>
-            
-        </div>
-        <div class="col-xs-12 col-md-5 col-md-offset-2">
-          <div class="phone-app-desktop">
-            <p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
-            <p>Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir.</p>
+            <div class="registro-app desktop">
+              <p>Disfruta del viaje <br>Eres dueño de tu tiempo</p>
+            </div>
           </div>
         </div>
       </div>
+    </div> -->
+  </section>
+  <!-- sección descarga el app -->
+  <section class="phone">
+    <div class="phone-text">
+      <div class="phone-box">
+        <h3>La nueva app</h3>
+      <img src="assets/images/iPhone6Plus.png" alt="iphone 6">
+      </div>
+      <div class="info hidden-xs">
+        <h2>Descarga la nueva app</h2>
+        <p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil rápido.</p>
+        <p>Con solo tocar un botón, un auto llega justo a tu ubicación.Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir.</p>
+      </div>
     </div>
   </section>
-
+  <!-- sección conduce -->
+  <section class="driver">
+    <div class="text-drive">
+      <h2>Conduce cuando quieras</h2>
+      <p>LabCar es una opción flexible para alcanzar tus metas financieras.</p>
+      <button class="btn btn-default" type="submit">Conviértete en conductor</button>
+    </div>
+  </section>
 
 
 

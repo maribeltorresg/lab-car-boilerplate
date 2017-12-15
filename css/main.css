@@ -4,27 +4,92 @@
     padding: 0;
 }
 
+.nab-toggle-left {
+    float: left;
+    margin: 15px;
+}
+
 .hero {
     background-image: url('../assets/images/taxi.jpg');
     background-position: center 91%;
     background-size: 100% auto;
     background-repeat: no-repeat;   
+    display: flex;
+    height: 100vh;
+    justify-content: flex-end;
+}
+
+.info-mobile {
+    background-color: #f7b617;
+    margin-top: 65px;
+    width: 75%;
+}
+
+.registry {
+        background-color: #f7b617;
+        color: #fff;
+        margin-top: 51px;
+    }
+
+.phone {
+    background-color: #f7b617;
+    color: #fff; 
+    padding: 2em 1em;
+}
+
+.phone-text {
+    border: 1px solid #fff;
+    display: flex;
+    width: 100%;
+}
+
+.info {
+    margin: 2.5em;
+}
+
+.driver {
+    background-image: url('../assets/images/conduce.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
     height: 100vh;
 }
 
-.descarga-app {
+.text-drive {
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+}
+
+@media (min-width:768px) {
+    .phone-text {
+        width: 75%;
+    }
+
+    
+}
+
+/* .flex-container {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: flex-end;
+} */
+
+/* .descarga-app {
     background-color: #f7b617;
     color: #fff;
     height: 17.5em;
-}
+} */
 
-.phone-app {
+/* .phone-app {
     background-color: #f7b617;
     color: #fff;
     padding: 2.5em 1em 3.5em;
-}
+} */
 
-.title-iphone {
+/* .title-iphone {
     outline: 1px solid #fff;
     text-align: center;
 }
@@ -36,8 +101,21 @@
 .container-super-fluid {
 width: 100%;
 padding: 0;
+} */
+
+/* .desktop {
+    display: none;
+} */
+
+
+
+.bg-color {
+    background-color: #f7b617;
+    border: none;
 }
 
-.desktop {
-    display: none;
+.border {
+    display: inline-block;  
+    background-color: #f7b617;
+    border: 1px solid #fff;
 }
