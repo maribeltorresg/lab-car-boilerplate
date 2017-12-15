@@ -10,6 +10,7 @@
 }
 
 .hero {
+    align-items: center;
     background-image: url('../assets/images/taxi.jpg');
     background-position: center 91%;
     background-size: 100% auto;
@@ -19,20 +20,22 @@
     justify-content: flex-end;
 }
 
-.info-mobile {
+.bg-color {
     background-color: #f7b617;
-    margin-top: 65px;
+}
+
+.info-mobile {
+    color: #fff;
+    margin-top: 4em;
+    padding: 1.5em 3em 3em;
     width: 75%;
 }
 
-.registry {
-        background-color: #f7b617;
-        color: #fff;
-        margin-top: 51px;
-    }
+.size-img {
+    width: 20%;
+}
 
 .phone {
-    background-color: #f7b617;
     color: #fff; 
     padding: 2em 1em;
 }
@@ -57,62 +60,49 @@
     height: 100vh;
 }
 
+.bd-none {
+    border: none;
+}
+
 .text-drive {
     background-color: rgba(0, 0, 0, .5);
     width: 100%;
 }
 
+.tariff {
+    /* border: 1px solid #fff; */
+    /* margin: 1em; */
+}
+
+.tariff .mapa {
+    border: 1px solid #fff;
+    padding: 1em;
+}
+
+.footer {
+    background-color: #2b2b2b;  
+}
+
 @media (min-width:768px) {
+    .registry {
+        color: #fff;
+        margin-top: 51px;
+        padding: 0 2.5em 2.5em;
+        width: 35%;
+    }
+
+    .registry h3 {
+        padding: .5em 0 1.5em;
+    }
+    
     .phone-text {
         width: 75%;
     }
-
-    
 }
 
-/* .flex-container {
-    align-items: center;
-    display: flex;
-    height: 100vh;
-    justify-content: flex-end;
-} */
-
-/* .descarga-app {
-    background-color: #f7b617;
-    color: #fff;
-    height: 17.5em;
-} */
-
-/* .phone-app {
-    background-color: #f7b617;
-    color: #fff;
-    padding: 2.5em 1em 3.5em;
-} */
-
-/* .title-iphone {
-    outline: 1px solid #fff;
-    text-align: center;
-}
-
-.title-iphone .title {
-    font-size: 2.5em;
-}
-
-.container-super-fluid {
-width: 100%;
-padding: 0;
-} */
-
-/* .desktop {
-    display: none;
-} */
 
 
 
-.bg-color {
-    background-color: #f7b617;
-    border: none;
-}
 
 .border {
     display: inline-block;  
