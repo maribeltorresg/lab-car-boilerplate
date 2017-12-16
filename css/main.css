@@ -134,7 +134,7 @@
     padding: 2em 0;
 }
 
-.footer .apps {
+.footer .apps1, .apps2  {
     margin-bottom: 1em;
     width: 95%;
 }
@@ -175,6 +175,18 @@
 
     .tariff.mapa {
         margin-top: 1em;
+    }
+
+    .footer .icons {
+        margin-top: 106%;
+    }
+
+    .footer .services {
+        padding-top: 2em;
+    }
+
+    .footer .apps1 {
+        margin-top: 70%;
     }
 
 }
