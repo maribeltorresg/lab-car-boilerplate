@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/icons/font-awesome/css/font-awesome.min.css">
     <!-- Link boostrap css -->
     <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
     <!-- Link main.css -->
@@ -58,7 +59,7 @@
   <!-- sección descarga el app -->
   <section class="phone bg-color">
     <div class="phone-text">
-      <div class="phone-box">
+      <div class="phone-title">
         <h3>La nueva app</h3>
       <img src="assets/images/iPhone6Plus.png" alt="iphone 6">
       </div>
@@ -67,6 +68,7 @@
         <p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil rápido.</p>
         <p>Con solo tocar un botón, un auto llega justo a tu ubicación.Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir.</p>
       </div>
+      <p>LLega a tu destino aún más rápido</p>
     </div>
   </section>
   <!-- sección conduce -->
@@ -74,24 +76,30 @@
     <div class="text-drive">
       <h2>Conduce cuando quieras</h2>
       <p>LabCar es una opción flexible para alcanzar tus metas financieras.</p>
-      <button class="btn btn-default bg-color bd-none" type="submit">Conviértete en conductor</button>
+      <button class="btn btn-default bg-color bd-none font-letter" type="submit">Conviértete en conductor</button>
     </div>
   </section>
   <!-- Tarifas y ruta -->
-  <section>
-    <div class="tariff bg-color">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-md-6">
-            <h2>Tarifas</h2>
-            <p>Consulta las tarifas LabCar aquí</p>
-            <img src="assets/images/shape.png" alt="shape">
-            <img src="assets/images/shape2.png" alt="shape">
-            <button class="btn btn-default bd-none" type="submit">¡TRAZAR RUTA!</button>
-          </div>
-          <div class="col-xs-12 col-md-6">
-            <div class="mapa">mamamamamamamamapamapamapamapamapa</div>
-          </div>
+  <section class="tariff bg-color">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <h2>Tarifas</h2>
+          <p>Consulta las tarifas LabCar aquí</p>
+          <form>
+            <div class="form-group">
+                <img src="assets/images/shape.png" alt="shape">
+              <input type="email" class="form-control input-style" id="email" placeholder="Enter email" name="email">
+            </div>
+            <div class="form-group">
+                <img src="assets/images/shape2.png" alt="shape">
+              <input type="password" class="form-control input-style" id="pwd" placeholder="Enter password" name="pwd">
+            </div>
+          </form>
+          <button class="btn btn-default bd-none" type="submit">¡TRAZAR RUTA!</button>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="mapa">mamamamamamamamapamapamapamapamapa</div>
         </div>
       </div>
     </div>
@@ -101,7 +109,55 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <img src="assets/images/logoBlanco.png" alt="logo blanco LabCar">
+          <figure class="logo-footer">
+            <img src="assets/images/logoBlanco.png" alt="logo blanco LabCar">
+          </figure>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-6 col-md-3 col-md-push-3">
+          <ul class="info-footer">
+            <li><a href="#">Viaja</a></li>
+            <li><a href="#">Conduce</a></li>
+            <li><a href="#">Ciudades</a></li>
+            <li><a href="#">Ciudades</a></li>
+            <li><a href="#">Entregas</a></li>
+            <li><a href="#">Cómo funciona?</a></li>
+            <li><a href="#">Paíces</a></li>
+            <li><a href="#">Seguridad</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-6 col-md-3 col-md-pull-3">
+          <ul class="icons">
+            <li>
+              <span class="fa fa-facebook"></span>
+              <span class="fa fa-twitter"></span>
+              <span class="fa fa-linkedin"></span>
+              <span class="fa fa-apple"></span>
+              <span class="fa fa-play"></span>
+            </li>
+          </ul>
+        </div>
+        <div class="hidden-xs col-md-3">
+          <ul class="services">
+            <li><a href="#">Oportunidades</a></li>
+            <li><a href="#">Nuestra Historia</a></li>
+            <li><a href="#">API de LabCar</a></li>
+            <li><a href="#">Eventos</a></li>
+            <li><a href="#">Desarrolladores</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Laboratoria</a></li>
+            <li><a href="#">Coders</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-6 col-xs-offset-6 col-md-3 col-md-offset-0">
+          <img src="assets/images/appstore.png" alt="app apple" class="apps">
+          <img src="assets/images/enBadgeWebGeneric.png" alt="" class="apps">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col xs-12 col-md-12">
+          <p class="copyright"> © 2017 Technologies inc.</p>
         </div>
       </div>
     </div>
