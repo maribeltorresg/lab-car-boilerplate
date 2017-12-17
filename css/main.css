@@ -9,48 +9,74 @@
     margin: 15px;
 }
 
-/* Modal */
+/* Modal inicia seción*/
 
 .content-user {
     background-color: #027feb;
     border-radius: 50%; 
-    margin: auto;
     height: 170px;
-    width: 170px;
+    margin: auto;
     padding: 10px;
+    text-align: center;
+    width: 170px;
 }
 
 .content-user .fa-user {
     color: #fff;
     font-size: 6em;
+    padding-top: 16px;
 }
 
 .bg-blue {
     background-color: #08ac9d;
 }
 
-.content-check-in {
+.content-log-in {
     background-color: #f5f5f5;
     border-radius: 5px;
     margin: 10px 26% 20px
 }
 
-.content-check-in p a {
-    color: red;
+.content-log-in p a {
+    color: #ff0000;
     text-decoration: none;
 }
 
-.input-check-in {
+.input-log-in {
     margin: 10px 0;
     width: 98%;
 }
 
-.btn-orange {
-    background-color: #f0ad4e;
+.btn-center {
     color: #fff;
     margin: 10px 33%;
 }
 
+/* Modal registrarse */
+
+.modal-header-padding {
+    border: none;
+    padding: 10px;
+}
+
+.text-center {
+    margin: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.input-margin {
+    margin-bottom: 15px;
+}
+
+.bg-color-content {
+    background-color: #a9a9a9;  
+}
+
+.btn-black {
+    background-color: #000;
+    color: #fff;
+}
 
 /* Seccíon hero */
 .hero {
@@ -189,6 +215,12 @@
 }
 
 @media (min-width:768px) {
+    /* Modal registrar */
+    .form-inline .input-width {
+        width: 49.5%;
+    }
+
+    /* Estilos registro */
     .registry {
         color: #fff;
         margin-top: 51px;
