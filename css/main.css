@@ -78,6 +78,18 @@
     color: #fff;
 }
 
+/* Modal de Conviertete en conductor */
+ .modal-padding {
+     padding: 20px;
+     width: 470px;
+ }
+
+ .parrafo-size {
+     color: #777;
+    font-size: .9em;
+ }
+ 
+
 /* Seccíon hero */
 .hero {
     align-items: center;

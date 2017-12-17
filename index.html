@@ -81,7 +81,7 @@
       <p>Viaja con <img src="assets/images/logoBlanco.png" class="size-img" alt=""></p>
       <button class="btn btn-default bd-none" type="submit" data-toggle="modal" data-target="#myModalCheck">Regístrate</button>
       <hr>
-      <button class="btn btn-default bd-none" type="submit">Conviértete en un conductor</button>
+      <button class="btn btn-default bd-none" type="submit" data-toggle="modal" data-target="#myModalDriver">Conviértete en un conductor</button>
     </div>
   </section>
 
@@ -147,10 +147,72 @@
     <div class="text-drive">
       <h2>Conduce cuando quieras</h2>
       <p>LabCar es una opción flexible para alcanzar tus metas financieras.</p>
-      <button class="btn btn-default bg-color bd-none font-letter" type="submit">Conviértete en conductor</button>
+      <button class="btn btn-default bg-color bd-none font-letter" type="submit" data-toggle="modal" data-target="#myModalDriver">Conviértete en conductor</button>
     </div>
   </section>
 
+  <!-- Modal de Conviertete en conductor-->
+  <div id="myModalDriver" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content bg-color-content modal-padding">
+          <div class="modal-header-padding">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <fieldset>
+                <div class="form-group">
+                  <label for="sel1">¿Tienes vehículo de 4 puertas?</label>
+                  <select id="sel1" class="form-control">
+                    <option>Si</option>
+                    <option>No</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="sel2">Marca</label>
+                  <select id="sel2" class="form-control">
+                    <option>Elige la marca del vehículo</option>
+                    <option>Toyota</option>
+                    <option>Subaru</option>
+                    <option>Mercedes</option>
+                    <option>Kia</option>
+                  </select>
+                  <p class="parrafo-size">¿No ves tu vehículo en la lista? Envía un correo electrónico a <a href="#">sociosmdv@uber.com</a></p>
+                </div>
+                <div class="form-group">
+                  <label for="sel3">Modelo</label>
+                  <select id="sel3" class="form-control">
+                    <option>Modelo1</option>
+                    <option>Modelo2</option>
+                    <option>Modelo3</option>
+                    <option>Modelo4</option>
+                    <option>Modelo5</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="sel4">Año</label>
+                  <select id="sel4" class="form-control">
+                    <option>2017</option>
+                    <option>2016</option>
+                    <option>2015</option>
+                    <option>2014</option>
+                    <option>2013</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInput#">Número de la matrícula</label>
+                  <input type="email" class="form-control" id="exampleInput#" placeholder="Número de la matrícula">
+                  <p>La información de la matrícula ayuda a los clientes a identificar tu vehículo</p>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg btn-block">ENVIAR</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+      </div>
+    
   <!-- Tarifas y ruta -->
   <section class="tariff bg-color">
     <div class="container">
