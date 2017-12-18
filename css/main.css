@@ -8,7 +8,9 @@
     float: left;
     margin: 15px;
 }
-
+.size-img {
+    width: 20%;
+}
 /* Modal inicia seción*/
 
 .content-user {
@@ -79,16 +81,15 @@
 }
 
 /* Modal de Conviertete en conductor */
- .modal-padding {
-     padding: 20px;
-     width: 470px;
- }
+.modal-padding {
+    padding: 20px;
+    width: 470px;
+}
 
- .parrafo-size {
-     color: #777;
+.parrafo-size {
+    color: #777;
     font-size: .9em;
- }
- 
+}
 
 /* Seccíon hero */
 .hero {
@@ -100,6 +101,11 @@
     display: flex;
     height: 100vh;
     justify-content: flex-end;
+}
+
+.hero .info-mobile {
+    color: #fff;
+    padding: 3rem 1.5rem 3.5rem;
 }
 
 .bg-color {
@@ -227,7 +233,7 @@
 }
 
 @media (min-width:768px) {
-    
+
     /* Modal registrar */
     .form-inline .input-width {
         width: 49.5%;
@@ -241,8 +247,37 @@
         width: 35%;
     }
 
+    .registry>p {
+        font-size: 1.2em;
+        margin: 0 1rem 2rem;
+    }
+
+    .registry span {
+        margin: 0 1rem 0 0;
+    }
+
+    .registry .text:before {
+        content: " ";
+        display: inline-block;
+        width: 90px;
+        height: 1px;
+        background: white;
+        margin-top: 20px;
+        margin-right: 6rem;
+    }
+
+    .text:after {
+        content: " ";
+        display: inline-block;
+        width: 90px;
+        height: 1px;
+        background: white;
+        margin-top: 20px;
+        margin-left: 6rem;
+    }
+
     .registry h3 {
-        padding: .5em 0 1.5em;
+        padding: .5rem 0 1.5rem;
     }
     /* Sección phone */
     .phone {
