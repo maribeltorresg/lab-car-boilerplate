@@ -188,6 +188,10 @@
     width: 82%;
 }
 
+.tariff .form-group input::-webkit-input-placeholder {
+    color: white;
+}
+
 .tariff .mapa {
     border: 1px solid #fff;
     margin-top: 3em;
