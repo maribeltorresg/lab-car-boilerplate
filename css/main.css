@@ -96,7 +96,8 @@
     align-items: center;
     background-image: url('../assets/images/taxi.jpg');
     background-position: center 91%;
-    background-size: 100% auto;
+    /* background-size: 100% auto; */
+    background-size: cover;
     background-repeat: no-repeat;   
     display: flex;
     height: 100vh;
