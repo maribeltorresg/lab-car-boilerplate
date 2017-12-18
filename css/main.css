@@ -106,6 +106,7 @@
 .hero .info-mobile {
     color: #fff;
     padding: 3rem 1.5rem 3.5rem;
+    width: 82%;
 }
 
 .bg-color {
@@ -126,7 +127,7 @@
     border: 1px solid #fff;
     display: flex;
     margin-left: -1px;  
-    padding: 3em 7em;
+    /* padding: 3em 7em; */
     width: 100%;
 }
 
